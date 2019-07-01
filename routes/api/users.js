@@ -55,9 +55,6 @@ async (req, res) => {
             password
         });
 
-        
-
-
         // Encrypt the password
         const salt = await bcrypt.genSalt(10);
 
